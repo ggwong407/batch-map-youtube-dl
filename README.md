@@ -9,10 +9,12 @@
 Note: Downlaod instruction of youtube-dl could be found [here](http://ytdl-org.github.io/youtube-dl/download.html)
 
 ## Usage
-First, put the playlist containing the url of each video in `src/`. Then run the following code:
+First, put the playlist containing the url of each video in `src/`. Then run the following code: 
 ```
 python3 scripts/batch-map-dl.py
 ```
+You could find videos downloaded and welly organized in `exp/`.
+
 For Linux and Mac user, make sure youtube-dl installed.
 For Windows user, make sure you put the `youtube-dl.exe` under the same directory.
 
